@@ -32,6 +32,23 @@ h2 {
   color: #2c3e50;
 }
 
+
+input[type="number"] {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+
 input[type="tel"] {
   width: 100%;
   padding: 0.9rem 1rem;

@@ -35,7 +35,7 @@ export default function VerifyPage() {
       <h2>تایید شماره موبایل</h2>
       <p>کد تایید ارسال شده به {mobile} را وارد کنید</p>
       <input
-        type="text"
+        type="number"
         placeholder="کد تایید"
         value={otp}
         onChange={(e) => setOtp(e.target.value)}
